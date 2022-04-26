@@ -1,0 +1,199 @@
+.contact-box {
+    box-align: fixed;
+    margin-left: 300px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    text-align: center;
+    left: 23.5%;
+}
+
+
+.h2-kalkulator {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2-kalkulator:after{
+    content: '';
+    position: absolute;
+    left: 26.5%;
+    right: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    max-width: 200px;
+    border-radius: 2px;
+    background-color: yellow;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: solid 2px black;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: wheat;
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid black
+}
+
+
+
+.regnut-btn {
+    width: 110%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: lightgrey;
+    outline: solid 2px black;
+    border: none;
+    transition: .3s;
+}
+
+.regnut-btn:hover {
+    background-color: rgb(163, 162, 162);
+    transform: scale(1.05)
+}
+
+
+#areal {
+    position: absolute;
+    left: 25%;
+    max-width: 200px;
+    top: 41%;
+}
+
+#itemp {
+    position: absolute;
+    left: 45%;
+    max-width: 200px;
+    top: 41%;
+}
+
+#utemp {
+    position: absolute;
+    left: 45%;
+    max-width: 200px;
+    top: 55%;
+} 
+
+#uverdiGammel {
+    position: absolute;
+    left: 65%;
+    max-width: 200px;
+    top: 41%;
+}
+
+#dager {
+    position: absolute;
+    left: 25%;
+    max-width: 200px;
+    top: 55%;
+}
+
+#uverdiNy {
+    position:absolute;
+    left: 65%;
+    max-width: 200px;
+    top: 55%;
+}
+
+#felt {
+    position: absolute;
+    left: 65%;
+    max-width: 200px;
+    top: 800px;
+}
+
+
+.kalk-button {
+    position: absolute;
+    left: 47.5%;
+    top: 65%;
+    max-width: 150px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: lightgrey;
+    outline: solid 2px black;
+    border: none;
+    transition: .3s;
+}
+
+
+.kalk-button:hover {
+    background-color: rgb(163, 162, 162);
+    transform: scale(1.05)
+}
+
+
+.resultatNy {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    right: 50%;
+}
+
+
+.resultatGammel {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    right: 50%;
+}
+
+
+.temperaturdiff {
+    position: static;
+    margin-left: 1200px;
+
+}
+
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    margin-top: 245px;
+    margin-left: 885px;
+  }
+  button {
+    margin: 20px;
+    outline: none;
+  }
+  .button1 {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    font-size: 1.1pc;
+  }
+  
+  /* 1 */
+  .regn-ut-btn {
+    transition: all 0.3s ease;
+  }
+  .regn-ut-btn:hover {
+     box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #fff9,
+     4px 4px 5px 0px #fff9;
+  }
+  

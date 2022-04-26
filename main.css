@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+body {
+  background-color: orange;
+}
+
+#logo {
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+.topbox {
+    background-color: orange;
+    outline: solid white;
+    width: 1150px;
+    height: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    cursor: grab;
+}
+
+.topbox:hover {
+  transform: scale(1.05);
+}
+
+
+.banner {
+    background-color: #ffffff;
+    height: 250px;
+}
+
+#logo {
+    size-adjust: 50
+}
+
+
+
+.info {
+    height: 30px;
+}
+
+
+.homeboxtekst {
+    position: static;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}

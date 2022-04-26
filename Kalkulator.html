@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="kalkulator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kalkulator.js">
+    <script src="kalkulator.js"></script>
+    <title>kalkulator</title>
+</head>
+<body>
+    
+    <!--Banner med logo-->
+    <div class="banner">
+        <a href="Index.html"><img id="logo" src="Dyrevinduerelogov3.png" alt=""img/> </a>
+
+    </div> 
+    
+    <!--Meny knapp-->
+    <details>
+      <summary></summary>
+      <nav class="menu">
+        <a href="Index.html">Home</a>
+        <a href="Kalkulator.html">Kalkulator</a>
+        <a href="FaQ.html">faq</a>
+        <a href="GetStarted.html">Get started</a>
+        <a href="KontaktOss.html">Kontakt oss</a>
+      </nav>
+    </details>
+
+    
+<!-- kalkulator -->
+
+<form>
+  <h2 class="h2-kalkulator contact-box">Kalkulator</h2>
+  <input type="number" class="field" placeholder="Arealet av vinduet ditt" id="areal">
+  <input type="number" class="field" placeholder="Foretrukket innetemp" id="itemp">
+  <input type="number" class="field" placeholder="Gjennomsnittig utetemp" id="utemp">
+
+  <input type="number" class="field" placeholder="U-verdi" id="uverdiGammel">
+  <input type="number" class="field" placeholder="Antall dager" id="dager">
+  <input type="number" class="field" placeholder="Ny uverdi" id="uverdiNy">
+  <input type="number" class="field" placeholder="nyfelt" id="felt">
+
+</form>
+
+
+
+  
+  <form> 
+    <input class="frame regn-ut-btn button1" style="font-family: Andale Mono, monospace;" type="button" onclick="kalkulator(); temperaturdiff()" value="Regn ut">
+    <span class="resultatNy" id="varmetapNyRes"></span>
+    <span class="resultatGammel" id="varmetapGammelRes"></span>
+    <span class="temperaturdiff" id="tempdiff"> </span>
+
+    <div class="frame">
+      <button class="custom-btn btn-1">Regn ut</button>
+      
+      <p style="font-family: Andale Mono, monospace;"> </p>
+    
+    </div>
+   
+
+
+  </form>
+ 
+</body>
+</html> 
