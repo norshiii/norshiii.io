@@ -131,24 +131,18 @@
 
 
 .resultatNy {
-    position: static;
-    margin-left: 600px;
-    margin-right: 600px;
+    text-decoration: solid;
 }
 
 
 .resultatGammel {
-    position: static;
-    padding: 5px;
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-top: 500px;  
+    text-decoration: none;
+      
 }
 
 
 .temperaturdiff {
-    position: static;
-    margin-left: 1200px;
+    text-decoration: none;
 
 }
 
@@ -207,7 +201,7 @@
     left: 57.5%;
 }
 
-.resultatbox {
+#resultatbox {
     background-color: orange;
     outline: solid white;
     width: 600px;
@@ -215,5 +209,5 @@
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 }

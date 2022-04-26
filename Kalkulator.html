@@ -14,6 +14,9 @@
     <title>kalkulator</title>
 </head>
 <body>
+  <script>
+    window.alert(test)
+  </script>
     
     <!--Banner med logo-->
     <div class="banner">
@@ -58,20 +61,22 @@
   
     
        <form> 
-    <input class="frame regn-ut-btn button1" style="font-family: Andale Mono, monospace;" type="button" onclick="kalkulator(); temperaturdiff();" value="Regn ut">
+    <input class="frame regn-ut-btn button1" style="font-family: Andale Mono, monospace;" type="button" onclick="kalkulator(); temperaturdiff(); resultbox();" value="Regn ut">
     
-    <div class="resultatbox">
+    <div id="resultatbox">
 
     <span class="resultatNy" id="varmetapNyRes"></span>
     <span class="resultatGammel" id="varmetapGammelRes"></span>
-    <span class="temperaturdiff" id="tempdiff"> </span>
+    <span class="pengerspart" id="fortjeneste"> </span>
     
+
     </div>
   
   </form>              
-    
-
-
+  
+<script>
+  window.alert(test)
+</script>
 
 </body>
 </html> 
