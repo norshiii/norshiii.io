@@ -11,19 +11,14 @@ function kalkulator() {
 
     differanse  = inneTempK - uteTempK;
 
-    varmetapNy = differanse * areal * uVerdiNy;
-    varmetapGammel = differanse * areal * uVerdiGammel;
-
-    document.getElementById("varmetapNyRes").innerHTML = varmetapNy;
-    document.getElementById("varmetapGammelRes").innerHTML = varmetapGammel;
+    document.getElementById("varmetapGammelRes").innerHTML = "Med de gamle vinduene dine ville du brukt " + (areal * uVerdiGammel * differanse * dager * 24 / 1000) + " kwh på " + dager + " dager";
+    document.getElementById("varmetapNyRes").innerHTML = areal * uVerdiNy * differanse * dager * 24 / 1000 + " kwhf";
 }
 
 function temperaturdiff() {
     inneTemp = document.getElementById("itemp").value;
     uteTemp = document.getElementById("utemp").value;
-    document.getElementById("tempdiff").innerHTML = inneTemp - uteTemp + " grader forskjell mellom inne og ute";
-    document.getElementById("varmetapGammelRes").innerHTML = areal * uVerdiGammel * differanse * 24 / 1000 + " kwh";
-
+    document.getElementById("tempdiff").innerHTML = inneTemp - uteTemp + " °C forskjell mellom inne- og ute-temperatur";
 }
 
 

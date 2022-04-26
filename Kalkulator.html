@@ -38,36 +38,40 @@
 
 <form>
   <h2 class="h2-kalkulator contact-box">Kalkulator</h2>
+  
   <input type="number" class="field" placeholder="Arealet av vinduet ditt" id="areal">
+  <h2 class="m2">m<sup>2</sup></h2>
   <input type="number" class="field" placeholder="Foretrukket innetemp" id="itemp">
+  <h2 id="celciusInne">°C</h2>
   <input type="number" class="field" placeholder="Gjennomsnittig utetemp" id="utemp">
+  <h2 id="celciusUte">°C</h2>
 
-  <input type="number" class="field" placeholder="U-verdi" id="uverdiGammel">
+  <input type="number" class="field" placeholder="Gammel U-verdi" id="uverdiGammel">
   <input type="number" class="field" placeholder="Antall dager" id="dager">
   <input type="number" class="field" placeholder="Ny uverdi" id="uverdiNy">
-  <input type="number" class="field" placeholder="nyfelt" id="felt">
 
 </form>
 
-
+  
+  
 
   
-  <form> 
-    <input class="frame regn-ut-btn button1" style="font-family: Andale Mono, monospace;" type="button" onclick="kalkulator(); temperaturdiff()" value="Regn ut">
+    
+       <form> 
+    <input class="frame regn-ut-btn button1" style="font-family: Andale Mono, monospace;" type="button" onclick="kalkulator(); temperaturdiff();" value="Regn ut">
+    
+    <div class="resultatbox">
+
     <span class="resultatNy" id="varmetapNyRes"></span>
     <span class="resultatGammel" id="varmetapGammelRes"></span>
     <span class="temperaturdiff" id="tempdiff"> </span>
-
-    <div class="frame">
-      <button class="custom-btn btn-1">Regn ut</button>
-      
-      <p style="font-family: Andale Mono, monospace;"> </p>
     
     </div>
-   
+  
+  </form>              
+    
 
 
-  </form>
- 
+
 </body>
 </html> 

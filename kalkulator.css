@@ -109,13 +109,6 @@
     top: 55%;
 }
 
-#felt {
-    position: absolute;
-    left: 65%;
-    max-width: 200px;
-    top: 800px;
-}
-
 
 .kalk-button {
     position: absolute;
@@ -138,18 +131,18 @@
 
 
 .resultatNy {
-    position: absolute;
-    top: 73%;
-    left: 50%;
-    right: 50%;
+    position: static;
+    margin-left: 600px;
+    margin-right: 600px;
 }
 
 
 .resultatGammel {
-    position: absolute;
-    top: 83%;
-    left: 50%;
-    right: 50%;
+    position: static;
+    padding: 5px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 500px;  
 }
 
 
@@ -164,12 +157,10 @@
     margin: 40px auto;
     text-align: center;
     margin-top: 245px;
-    margin-left: 885px;
+    margin-left: 900px;
   }
-  button {
-    margin: 20px;
-    outline: none;
-  }
+  
+
   .button1 {
     width: 130px;
     height: 40px;
@@ -185,7 +176,6 @@
     font-size: 1.1pc;
   }
   
-  /* 1 */
   .regn-ut-btn {
     transition: all 0.3s ease;
   }
@@ -196,4 +186,34 @@
      7px 7px 20px 0px #fff9,
      4px 4px 5px 0px #fff9;
   }
-  
+
+  .m2 {
+      position: absolute;
+      left: 37.5%;
+      top: 41%;
+
+  }
+
+  #celciusInne {
+      position: absolute;
+      top: 41.5%;
+      left: 57.5%;
+
+  }
+
+  #celciusUte {
+    position: absolute;
+    top: 55.5%;
+    left: 57.5%;
+}
+
+.resultatbox {
+    background-color: orange;
+    outline: solid white;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
